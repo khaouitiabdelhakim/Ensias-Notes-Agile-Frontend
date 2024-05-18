@@ -1,8 +1,8 @@
 "use client";
 
 import { Typography, Grid } from "@mui/material";
-import PageContainer from "@/app/admin/components/container/PageContainer";
-import DashboardCard from "@/app/admin/components/shared/DashboardCard";
+import PageContainer from "@/app/components/container/PageContainer";
+import DashboardCard from "@/app/components/shared/DashboardCard";
 import { IconSchool } from "@tabler/icons-react";
 import { useRouter } from "next/navigation";
 import { useEffect } from "react";
