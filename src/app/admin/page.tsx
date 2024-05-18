@@ -12,7 +12,7 @@ import {
   ListItemIcon,
   Avatar,
 } from "@mui/material";
-import PageContainer from "@/app/admin/components/container/PageContainer";
+import PageContainer from "@/app/components/container/PageContainer";
 import { IconUser } from "@tabler/icons-react";
 
 type User = {

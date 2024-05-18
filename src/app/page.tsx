@@ -2,7 +2,7 @@
 import Link from "next/link";
 import { Grid, Box, Card, Stack, Typography } from "@mui/material";
 // components
-import PageContainer from "@/app/admin/components/container/PageContainer";
+import PageContainer from "@/app/components/container/PageContainer";
 import Logo from "@/app/admin/layout/shared/logo/Logo";
 import AuthLogin from "./AuthLogin";
 

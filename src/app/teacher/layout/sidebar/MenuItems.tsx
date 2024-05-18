@@ -1,5 +1,6 @@
 import { iconClasses } from "@mui/material";
 import {
+  IconDashboard,
   IconFolders,
   IconTimeline,
   IconUser,
@@ -13,38 +14,14 @@ const Menuitems = [
  
   {
     navlabel: true,
-    subheader: "Référentiel",
+    subheader: "Principale",
   },
   {
     id: uniqueId(),
-    title: "Enseignants",
+    title: "Accueil",
     icon: IconUser,
-    href: "/admin",
+    href: "/teacher",
   },
-  {
-    id: uniqueId(),
-    title: "Étudiants",
-    icon: IconUsers,
-    href: "/admin/etudiants",
-  },
-  {
-    id: uniqueId(),
-    title: "Classes",
-    icon: IconUsersGroup,
-    href: "/admin/classes",
-  },
-  {
-    id: uniqueId(),
-    title: "Matiéres",
-    icon: IconFolders,
-    href: "/admin/matieres",
-  },
-  {
-    id: uniqueId(),
-    title: "Planiﬁcation",
-    icon: IconTimeline,
-    href: "/admin/planification",
-  }
 
 ];
 

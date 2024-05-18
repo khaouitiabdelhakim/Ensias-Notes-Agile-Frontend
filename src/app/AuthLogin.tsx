@@ -13,7 +13,7 @@ import {
 import Link from "next/link";
 import { useRouter } from 'next/navigation';
 
-import CustomTextField from "@/app/admin/components/forms/theme-elements/CustomTextField";
+import CustomTextField from "@/app/components/forms/theme-elements/CustomTextField";
 
 interface loginType {
   title?: string;

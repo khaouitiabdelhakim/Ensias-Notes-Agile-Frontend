@@ -26,14 +26,9 @@ type User = {
   role: string;
 };
 
-const EnseigantsPage = () => {
-  const [newTeacher, setNewTeacher] = useState<User>({
-    nom: "",
-    prenom: "",
-    email: "",
-    password: "",
-    role: "TEACHER",
-  });
+const EnseigantPage = () => {
+
+
   const [user, setUser] = useState({
     nom: "",
     prenom: "",
@@ -72,7 +67,7 @@ const EnseigantsPage = () => {
     >
       <div>
         <Typography variant="h3" gutterBottom>
-          Bonjour M. {user.nom} {user.prenom} (enseignant)
+          Bonjour, {user.nom} {user.prenom} (enseignant)
         </Typography>
         <br />
         <Grid container spacing={3}>
@@ -91,4 +86,4 @@ const EnseigantsPage = () => {
   );
 };
 
-export default EnseigantsPage;
+export default EnseigantPage;
